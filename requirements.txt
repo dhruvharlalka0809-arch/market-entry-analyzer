@@ -1,0 +1,4 @@
+anthropic>=0.42.0
+streamlit>=1.38.0
+pytest>=8.0.0
+pytest-timeout>=2.3.0
