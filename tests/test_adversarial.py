@@ -5,7 +5,7 @@ These are integration tests that require a live ANTHROPIC_API_KEY.
 Run with: pytest tests/test_adversarial.py -v -s
 
 Tests 2, 3, 5, 6 hit the full pipeline (web search + verification) and
-take 60-120+ seconds each. Test 1 is fast (validation only). Test 4 is
+take 3-5 minutes each. Test 1 is fast (validation only). Test 4 is
 a direct unit test of the verification function.
 """
 

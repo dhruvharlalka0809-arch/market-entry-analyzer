@@ -439,7 +439,7 @@ def run_analysis(
                 error=f"clarification_needed:{validation.clarifying_question}",
             )
 
-        status("Researching market data (this may take 60-120 seconds)...")
+        status("Researching market data — this typically takes 3-5 minutes due to multiple searches and a verification pass...")
         draft_report, search_results, source_count = generate_report(
             client, question, competitors
         )
