@@ -14,6 +14,10 @@ This project is designed to simulate a consulting-style market entry workstream:
 - Runs a verification pass to flag unsupported claims and repair weak sections.
 - Appends a transparency footer showing source count, checked claims, and corrections.
 
+## Output Preview
+
+See [docs/sample_report.md](docs/sample_report.md) for the expected report structure and decision logic.
+
 ## Decision Workflow
 
 1. User enters a market entry question, such as:
