@@ -18,6 +18,14 @@ This project is designed to simulate a consulting-style market entry workstream:
 
 See [docs/sample_report.md](docs/sample_report.md) for the expected report structure and decision logic.
 
+## Validate
+
+```bash
+python scripts/validate.py
+```
+
+The core parser tests run offline. The adversarial tests are skipped unless `ANTHROPIC_API_KEY` is configured.
+
 ## Decision Workflow
 
 1. User enters a market entry question, such as:
