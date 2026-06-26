@@ -4,13 +4,17 @@ import streamlit as st
 
 from pipeline import run_analysis
 
-st.set_page_config(page_title="Market Entry Analyzer", layout="wide")
+st.set_page_config(
+    page_title="AI Market Entry Strategy Analyzer",
+    page_icon=":mag:",
+    layout="wide",
+)
 
 if not os.environ.get("ANTHROPIC_API_KEY"):
     st.error("Please set ANTHROPIC_API_KEY in your environment before running this app.")
     st.stop()
 
-st.title("Market Entry Strategic Analysis")
+st.title("AI Market Entry Strategy Analyzer")
 st.markdown(
     "Enter a market entry question with a **specific company** and a "
     "**specific market/segment**. The tool will produce a sourced, "
